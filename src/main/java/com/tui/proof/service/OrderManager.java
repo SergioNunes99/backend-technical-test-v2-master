@@ -1,14 +1,14 @@
-package com.tui.proof.service.pilote;
+package com.tui.proof.service;
 
-import com.tui.proof.dto.pilote.OrderDto;
+import com.tui.proof.dto.OrderDto;
 
-public interface PiloteManager {
+public interface OrderManager {
 
     /**
      * Create new order
      * @param newOrder order to create
      */
-    void createOrder(OrderDto newOrder);
+    OrderDto createOrder(OrderDto newOrder);
 
     /**
      * Updates an order

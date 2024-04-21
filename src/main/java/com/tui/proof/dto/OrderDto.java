@@ -1,4 +1,4 @@
-package com.tui.proof.dto.pilote;
+package com.tui.proof.dto;
 
 import com.tui.proof.model.Address;
 
